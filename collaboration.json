@@ -59,19 +59,19 @@
                 "Coder"
             ]
         },
-        {
-            "type": "ditem",
-            "name": "Platform & Services",
-            "description": "Tilman Plehn is ",
-            "ditem": 6,
-            "date": "2012-05-09 15:53:27",
-            "slug": "ditem",
-            "links": [
-                "OPAL",
-                "Cloud Admin",
-                "Coder"
-            ]
-        }
+      //  {
+        //    "type": "ditem",
+          //  "name": "Platform & Services",
+          //  "description": "Tilman Plehn is ",
+          //  "ditem": 6,
+          //  "date": "2012-05-09 15:53:27",
+          //  "slug": "ditem",
+          //  "links": [
+            //    "OPAL",
+              //  "Cloud Admin",
+              //  "Coder"
+          //  ]
+      //  }
 
     ],
     "product": [
