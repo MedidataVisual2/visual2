@@ -8,7 +8,26 @@
             "date": "2012-05-05 23:50:11",
             "slug": "ditem-kyle-cranmer",
             "links": [
-                "OPAL"
+                "Rave/RaveX",
+                "OPAL",
+                "Insights",
+                "Grants Manager",
+                "CTMS",
+                "Payments",
+                "Balance",
+                "Safety Gateway",
+                "Balance RTSM",
+                "Coder",
+                "Medidata Medical Imaging",
+                "Strategic Monitoring",
+                "CSA",
+                "TotalView",
+                "Study Design Optimizer",
+                "ePRO",
+                "SensorLink",
+                "AppConnect",
+                "eConsent"
+                
             ]
         },
         {
@@ -19,7 +38,11 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-lukas-heinrich",
             "links": [
-                "OPAL"
+                "OPAL",
+                "Study Design Optimization",
+                "Grants Manager Planning",
+                "Synthetic Control Arms",
+                "Genomics"
             ]
         },
         {
@@ -30,9 +53,10 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-gilles-louppe",
             "links": [
-                "Coder",
-                "Cloud Admin",
-                "Batch Uploader"
+                "CTMS",
+                "Grants Manager Contracting",
+                "Regulated Content Management",
+                "Strategic Monitoring"
             ]
         },
         {
@@ -43,8 +67,16 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-gilles-louppe",
             "links": [
-                "Cloud Admin",
-                "Coder"
+                "Balance RTSM",
+                "Coder",
+                "Medidata Medical Imaging",
+                "Payments",
+                "ePRO",
+                "SensorLink",
+                "AppConnect",
+                "eConsent",
+                "Rave/RaveX",
+                "Safety Gateway"
             ]
         },
         {
@@ -55,8 +87,10 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-gilles-louppe",
             "links": [
-                "Cloud Admin",
-                "Coder"
+                "CSA",
+                "Insights",
+                "OPAL",
+                "TotalView"
             ]
         },
       //  {
@@ -75,13 +109,13 @@
 
     ],
     "product": [
-        {
-            "type": "product",
-            "name": "Batch Uploader",
-            "description": "<div style=\"width: 640px; height: 480px; margin: 10px; position: relative;\"><iframe allowfullscreen frameborder=\"0\" style=\"width:640px; height:480px\" src=\"https://www.lucidchart.com/documents/embeddedchart/d954e049-fa07-48b9-843a-113500715b94\" id=\"spROHcOgys9d\"></iframe></div>",
-            "group": "11",
-            "slug": "batchuploader"
-        },
+      //  {
+       //     "type": "product",
+         //   "name": "Batch Uploader",
+           // "description": "<div style=\"width: 640px; height: 480px; margin: 10px; position: relative;\"><iframe allowfullscreen frameborder=\"0\" style=\"width:640px; height:480px\" src=\"https://www.lucidchart.com/documents/embeddedchart/d954e049-fa07-48b9-843a-113500715b94\" id=\"spROHcOgys9d\"></iframe></div>",
+        //    "group": "11",
+          //  "slug": "batchuploader"
+     //   },
         {
             "type": "product",
             "name": "Balance RTSM",
@@ -89,13 +123,13 @@
             "group": "11",
             "slug": "balance"
         },
-        {
-            "type": "product",
-            "name": "Cloud Admin",
-            "description": "Cloud Admin is a toolbox for likelihood-free inference - <a href=\"http://diana-hep.org/carl\">documentation</a> | <a href=\"https://github.com/diana-hep/carl\">code</a>",
-            "group": "11",
-            "slug": "cloudadmin"
-        },
+       // {
+         //   "type": "product",
+           // "name": "Cloud Admin",
+          //  "description": "Cloud Admin is a toolbox for likelihood-free inference - <a href=\"http://diana-hep.org/carl\">documentation</a> | <a href=\"https://github.com/diana-hep/carl\">code</a>",
+         //   "group": "11",
+           // "slug": "cloudadmin"
+      //  },
         {
             "type": "product",
             "name": "Coder",
