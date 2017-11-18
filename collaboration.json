@@ -153,13 +153,13 @@
         },
         {
             "type": "product",
-            "name": "Design Optimizer",
+            "name": "Study Design Optimizer",
             "description": "",
             "slug": "design"
         },
         {
             "type": "product",
-            "name": "MMI",
+            "name": "Medidata Medical Imaging",
             "description": "",
             "slug": "imaging"
         },
@@ -169,12 +169,12 @@
             "description": "",
             "slug": "grantsmanager"
         },
-        {
-            "type": "product",
-            "name": "iMedidata",
-            "description": "",
-            "slug": "imedidata"
-        },
+      //  {
+        //    "type": "product",
+          //  "name": "iMedidata",
+         //   "description": "",
+          //  "slug": "imedidata"
+       // },
         {
             "type": "product",
             "name": "OPAL",
@@ -189,13 +189,13 @@
             "group": "12",
             "slug": "insights"
         },
-        {
-            "type": "product",
-            "name": "MEDS",
-            "description": "",
-            "group": "11",
-            "slug": "meds"
-        },
+      //  {
+        //    "type": "product",
+          //  "name": "MEDS",
+         //   "description": "",
+         //   "group": "11",
+        //    "slug": "meds"
+      //  },
         {
             "type": "product",
             "name": "RCM",
@@ -220,14 +220,14 @@
             "count": "10",
             "group": "1"
         },
-        {
-            "type": "collaboration",
-            "name": "TSDV",
-            "description": "<a href=\"http://lhcb-public.web.cern.ch/lhcb-public/\">LHCb is an experiment set up to explore what happened after the Big Bang that allowed matter to survive and build the Universe we inhabit today</a>",
-            "slug": "tsdv",
-            "count": "10",
-            "group": "1"
-        },
+        //{
+          //  "type": "collaboration",
+          //  "name": "TSDV",
+          //  "description": "<a href=\"http://lhcb-public.web.cern.ch/lhcb-public/\">LHCb is an experiment set up to explore what happened after the Big Bang that allowed matter to survive and build the Universe we inhabit today</a>",
+          //  "slug": "tsdv",
+          //  "count": "10",
+          //  "group": "1"
+      //  },
         {
             "type": "collaboration",
             "name": "TotalView",
@@ -238,7 +238,7 @@
         },
         {
             "type": "collaboration",
-            "name": "App Connect",
+            "name": "AppConnect",
             "description": "An experiment at Jefferson Lab looking for a fifth force carried by a \"dark photon\".",
             "slug": "app",
             "count": "10",
@@ -254,7 +254,7 @@
         },
         {
             "type": "collaboration",
-            "name": "Enroll",
+            "name": "eConsent",
             "description": "<a href=\"http://diana-hep.org\">Sustainable Software for High Energy Physics</a>",
             "slug": "enroll",
             "count": "10",
@@ -262,7 +262,7 @@
         },
         {
             "type": "collaboration",
-            "name": "Sensor Link",
+            "name": "SensorLink",
             "description": "<a href=\"https://daspos.crc.nd.edu\">Data And Software Preservation for High Energy Physics</a>",
             "slug": "sensor",
             "count": "10",
