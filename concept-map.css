@@ -141,7 +141,7 @@
   cursor: pointer;
 }
 .conceptmap .all-ditems {
-  fill: #aaa;
+  fill: #000;
 }
 .conceptmap .detail a text:hover, .conceptmap text.all-ditems:hover {
   text-decoration: underline;
