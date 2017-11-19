@@ -6,7 +6,7 @@
             "description": "<div style=\"width: 480px; height: 360px; margin: 10px; position: relative;\"><iframe allowfullscreen frameborder=\"0\" style=\"width:480px; height:360px\" src=\"https://www.lucidchart.com/documents/embeddedchart/670444d6-2560-42d8-978a-34032256e1a4\" id=\"pRvM3d7h5y6_\"></iframe></div>",
             "ditem": 1,
             "date": "2012-05-05 23:50:11",
-            "slug": "ditem-kyle-cranmer",
+            "slug": "iMedidata",
             "links": [
                 "OPAL",
                 "Insights",
@@ -31,7 +31,7 @@
             "description": "<a href=\"http://www.lukasheinrich.com/\">Lukas Heinrich</a>",
             "ditem": 2,
             "date": "2012-05-09 15:53:27",
-            "slug": "ditem-lukas-heinrich",
+            "slug": "Trial Planning",
             "links": [
                 "Study Design Optimizer",
                 "Grants Manager Planning",
@@ -45,7 +45,7 @@
             "description": "<a href=\"https://glouppe.github.io//\">Gilles Louppe</a>",
             "ditem": 3,
             "date": "2012-05-09 15:53:27",
-            "slug": "ditem-gilles-louppe",
+            "slug": "Trial Start Up",
             "links": [
                 "CTMS",
                 "Regulated Content Management",
@@ -59,7 +59,7 @@
             "description": "<a href=\"https://glouppe.github.io//\">Gilles Louppe</a>",
             "ditem": 4,
             "date": "2012-05-09 15:53:27",
-            "slug": "ditem-gilles-louppe",
+            "slug": "Trial Execution",
             "links": [
                 "Rave/RaveX",
                 "Balance RTSM",
@@ -76,7 +76,7 @@
             "description": "<a href=\"https://glouppe.github.io//\">Gilles Louppe</a>",
             "ditem": 5,
             "date": "2012-05-09 15:53:27",
-            "slug": "ditem-gilles-louppe",
+            "slug": "Trial Close-Out",
             "links": [
                 "CSA",
                 "OPAL",
@@ -84,19 +84,19 @@
                 "TotalView"
             ]
         },
-        {
-            "type": "ditem",
-            "name": "Platform & Services",
-            "description": "Tilman Plehn is ",
-            "ditem": 6,
-            "date": "2012-05-09 15:53:27",
-            "slug": "ditem",
-            "links": [
-                "OPAL",
-                "Cloud Admin",
-                "Coder"
-            ]
-        }
+  //      {
+//            "type": "ditem",
+  //          "name": "Platform & Services",
+    //        "description": "Tilman Plehn is ",
+    //        "ditem": 6,
+      //      "date": "2012-05-09 15:53:27",
+     //       "slug": "ditem",
+       //     "links": [
+         //       "OPAL",
+        //        "Cloud Admin",
+          //      "Coder"
+        //    ]
+      //  }
 
     ],
     "product": [
@@ -112,7 +112,7 @@
             "name": "Balance RTSM",
             "description": "A tool for building statistical models based on histogram templates, with a rich set of components for modeling systeamtic uncertainties through simulation-based and data-driven approaches.",
   //          "group": "11",
-            "slug": "balance"
+            "slug": "Trial Execution"
         },
    //     {
 //            "type": "product",
@@ -126,39 +126,39 @@
             "name": "Coder",
             "description": "<div style=\"width: 960px; height: 720px; margin: 10px; position: relative;\"><iframe allowfullscreen frameborder=\"0\" style=\"width:960px; height:720px\" src=\"https://www.lucidchart.com/documents/embeddedchart/670444d6-2560-42d8-978a-34032256e1a4\" id=\"laFMRnNL4TQE\"></iframe></div>",
        //     "group": "12",
-            "slug": "coder"
+            "slug": "Trial Execution"
         },
         {
             "type": "product",
             "name": "CSA",
             "description": "CSA is a language and engine for flexible, distributed workflows. Originally written by Lukas Heinrich to serve as the backend for Recast, it is now being extended via MSDSE, DASPOS, and CERN and integrated into various projects)- <a href=\"http://yadage.readthedocs.io\">docs</a> | <a href=\"https://github.com/diana-hep/yadage\">code</a>",
      //       "group": "12",
-            "slug": "CSA"
+            "slug": "Trial Close-Out"
         },
         {
             "type": "product",
             "name": "CTMS",
             "description": "",
         //    "group": "11",
-            "slug": "CTMS"
+            "slug": "Trial Start Up"
         },
         {
             "type": "product",
             "name": "Study Design Optimizer",
             "description": "",
-            "slug": "design"
+            "slug": "Trial Planning"
         },
         {
             "type": "product",
             "name": "Medidata Medical Imaging",
             "description": "",
-            "slug": "imaging"
+            "slug": "Trial Execution"
         },
         {
             "type": "product",
             "name": "Grants Manager",
             "description": "",
-            "slug": "grantsmanager"
+            "slug": "Trial Planning"
         },
    //     {
      //       "type": "product",
@@ -171,14 +171,14 @@
             "name": "OPAL",
             "description": "Decoupling uncertainties through composition (emphasis on theoretical uncertainties and Higgs measurements)  <a href=\"https://arxiv.org/abs/1401.0080\">paper</a> | <a href=\"https://github.com/svenkreiss/decouple\">code</a>",
     //        "group": "11",
-            "slug": "opal"
+            "slug": "Trial Close-Out"
         },
         {
             "type": "product",
             "name": "Insights",
             "description": "<a href=\"http://www.svenkreiss.com/UnicodeIt\">UnicodeIt</a>",
             "group": "12",
-            "slug": "insights"
+            "slug": "Trial Close-Out"
         },
     //    {
             "type": "product",
@@ -191,7 +191,7 @@
             "type": "product",
             "name": "Regulated Content Management",
             "description": "",
-            "slug": "rcm"
+            "slug": "Trial Start Up"
         }
     ],
     "collaborations": [
@@ -199,7 +199,7 @@
             "type": "collaboration",
             "name": "Payments",
             "description": "<a href=\"http://atlas.cern\">ATLAS is an experiment at CERN designed to explore the secrets of the universe.</a>",
-            "slug": "payment",
+            "slug": "Trial Execution",
             "count": "10",
             "group": "1"
         },
@@ -207,7 +207,7 @@
             "type": "collaboration",
             "name": "Safety Gateway",
             "description": "<a href=\"http://cms.cern\">CMS is an experiment at CERN designed to explore the secrets of the universe.</a>",
-            "slug": "safe",
+            "slug": "Trial Execution",
             "count": "10",
             "group": "1"
         },
@@ -223,7 +223,7 @@
             "type": "collaboration",
             "name": "TotalView",
             "description": "An old experiment at LEP <a href=\"https://www.wired.com/2015/01/higgs-discovery-hijack-attempt/\">that motivated my interest in data and software preservation</a>",
-            "slug": "total",
+            "slug": "Trial Close-Out",
             "count": "10",
             "group": "1"
         },
@@ -263,7 +263,7 @@
             "type": "collaboration",
             "name": "Strategic Monitoring",
             "description": "CERN Analysis Preservation project",
-            "slug": "strategic",
+            "slug": "Trial Start Up",
             "count": "10",
             "group": "2"
         }
