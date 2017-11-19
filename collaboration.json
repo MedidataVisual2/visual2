@@ -33,7 +33,10 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-lukas-heinrich",
             "links": [
-                "OPAL"
+                "Study Design Optimizer",
+                "Grants Manager Planning",
+                "Synthetic Control Arms",
+                "Genomics"
             ]
         },
         {
@@ -44,9 +47,10 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-gilles-louppe",
             "links": [
-                "Coder",
-                "Cloud Admin",
-                "Batch Uploader"
+                "CTMS",
+                "Regulated Content Management",
+                "Strategic Monitoring",
+                "Grants Manager Contracting"
             ]
         },
         {
@@ -57,8 +61,13 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-gilles-louppe",
             "links": [
-                "Cloud Admin",
-                "Coder"
+                "Rave/RaveX",
+                "Balance RTSM",
+                "Coder",
+                "Medidata Medical Imaging",
+                "Safety Gateway",
+                "Patient Cloud",
+                "Payments"
             ]
         },
         {
@@ -69,8 +78,10 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-gilles-louppe",
             "links": [
-                "Cloud Admin",
-                "Coder"
+                "CSA",
+                "OPAL",
+                "Insights",
+                "TotalView"
             ]
         },
         {
@@ -89,46 +100,46 @@
 
     ],
     "product": [
-        {
-            "type": "product",
-            "name": "Batch Uploader",
-            "description": "<div style=\"width: 640px; height: 480px; margin: 10px; position: relative;\"><iframe allowfullscreen frameborder=\"0\" style=\"width:640px; height:480px\" src=\"https://www.lucidchart.com/documents/embeddedchart/d954e049-fa07-48b9-843a-113500715b94\" id=\"spROHcOgys9d\"></iframe></div>",
-            "group": "11",
-            "slug": "batchuploader"
-        },
+   //     {
+     //       "type": "product",
+       //     "name": "Batch Uploader",
+    //        "description": "<div style=\"width: 640px; height: 480px; margin: 10px; position: relative;\"><iframe allowfullscreen frameborder=\"0\" style=\"width:640px; height:480px\" src=\"https://www.lucidchart.com/documents/embeddedchart/d954e049-fa07-48b9-843a-113500715b94\" id=\"spROHcOgys9d\"></iframe></div>",
+      //      "group": "11",
+        //    "slug": "batchuploader"
+   //     },
         {
             "type": "product",
             "name": "Balance RTSM",
             "description": "A tool for building statistical models based on histogram templates, with a rich set of components for modeling systeamtic uncertainties through simulation-based and data-driven approaches.",
-            "group": "11",
+  //          "group": "11",
             "slug": "balance"
         },
-        {
-            "type": "product",
-            "name": "Cloud Admin",
-            "description": "Cloud Admin is a toolbox for likelihood-free inference - <a href=\"http://diana-hep.org/carl\">documentation</a> | <a href=\"https://github.com/diana-hep/carl\">code</a>",
-            "group": "11",
-            "slug": "cloudadmin"
-        },
+   //     {
+//            "type": "product",
+  //          "name": "Cloud Admin",
+    //        "description": "Cloud Admin is a toolbox for likelihood-free inference - <a href=\"http://diana-hep.org/carl\">documentation</a> | <a href=\"https://github.com/diana-hep/carl\">code</a>",
+      //      "group": "11",
+        //    "slug": "cloudadmin"
+   //     },
         {
             "type": "product",
             "name": "Coder",
             "description": "<div style=\"width: 960px; height: 720px; margin: 10px; position: relative;\"><iframe allowfullscreen frameborder=\"0\" style=\"width:960px; height:720px\" src=\"https://www.lucidchart.com/documents/embeddedchart/670444d6-2560-42d8-978a-34032256e1a4\" id=\"laFMRnNL4TQE\"></iframe></div>",
-            "group": "12",
+       //     "group": "12",
             "slug": "coder"
         },
         {
             "type": "product",
             "name": "CSA",
             "description": "CSA is a language and engine for flexible, distributed workflows. Originally written by Lukas Heinrich to serve as the backend for Recast, it is now being extended via MSDSE, DASPOS, and CERN and integrated into various projects)- <a href=\"http://yadage.readthedocs.io\">docs</a> | <a href=\"https://github.com/diana-hep/yadage\">code</a>",
-            "group": "12",
+     //       "group": "12",
             "slug": "CSA"
         },
         {
             "type": "product",
             "name": "CTMS",
             "description": "",
-            "group": "11",
+        //    "group": "11",
             "slug": "CTMS"
         },
         {
@@ -139,7 +150,7 @@
         },
         {
             "type": "product",
-            "name": "MMI",
+            "name": "Medidata Medical Imaging",
             "description": "",
             "slug": "imaging"
         },
@@ -159,7 +170,7 @@
             "type": "product",
             "name": "OPAL",
             "description": "Decoupling uncertainties through composition (emphasis on theoretical uncertainties and Higgs measurements)  <a href=\"https://arxiv.org/abs/1401.0080\">paper</a> | <a href=\"https://github.com/svenkreiss/decouple\">code</a>",
-            "group": "11",
+    //        "group": "11",
             "slug": "opal"
         },
         {
@@ -169,16 +180,16 @@
             "group": "12",
             "slug": "insights"
         },
+    //    {
+            "type": "product",
+   //         "name": "MEDS",
+  //          "description": "",
+  //          "group": "11",
+  //          "slug": "meds"
+    //    },
         {
             "type": "product",
-            "name": "MEDS",
-            "description": "",
-            "group": "11",
-            "slug": "meds"
-        },
-        {
-            "type": "product",
-            "name": "RCM",
+            "name": "Regulated Content Management",
             "description": "",
             "slug": "rcm"
         }
@@ -200,14 +211,14 @@
             "count": "10",
             "group": "1"
         },
-        {
-            "type": "collaboration",
-            "name": "TSDV",
-            "description": "<a href=\"http://lhcb-public.web.cern.ch/lhcb-public/\">LHCb is an experiment set up to explore what happened after the Big Bang that allowed matter to survive and build the Universe we inhabit today</a>",
-            "slug": "tsdv",
-            "count": "10",
-            "group": "1"
-        },
+ //       {
+   //         "type": "collaboration",
+//            "name": "TSDV",
+//            "description": "<a href=\"http://lhcb-public.web.cern.ch/lhcb-public/\">LHCb is an experiment set up to explore what happened after the Big Bang that allowed matter to survive and build the Universe we inhabit today</a>",
+  //          "slug": "tsdv",
+ //           "count": "10",
+   //         "group": "1"
+     //   },
         {
             "type": "collaboration",
             "name": "TotalView",
@@ -216,38 +227,38 @@
             "count": "10",
             "group": "1"
         },
-        {
-            "type": "collaboration",
-            "name": "App Connect",
-            "description": "An experiment at Jefferson Lab looking for a fifth force carried by a \"dark photon\".",
-            "slug": "app",
-            "count": "10",
-            "group": "1"
-        },
-        {
-            "type": "collaboration",
-            "name": "ePro",
-            "description": "<a href=\"https://crayfis.io\">The app that turns your phone into a cosmic ray detector. No joke.</a>",
-            "slug": "epro",
-            "count": "10",
-            "group": "1"
-        },
-        {
-            "type": "collaboration",
-            "name": "Enroll",
-            "description": "<a href=\"http://diana-hep.org\">Sustainable Software for High Energy Physics</a>",
-            "slug": "enroll",
-            "count": "10",
-            "group": "2"
-        },
-        {
-            "type": "collaboration",
-            "name": "Sensor Link",
-            "description": "<a href=\"https://daspos.crc.nd.edu\">Data And Software Preservation for High Energy Physics</a>",
-            "slug": "sensor",
-            "count": "10",
-            "group": "2"
-        },
+    //    {
+      //      "type": "collaboration",
+   //         "name": "App Connect",
+     //       "description": "An experiment at Jefferson Lab looking for a fifth force carried by a \"dark photon\".",
+    //        "slug": "app",
+      //      "count": "10",
+  //          "group": "1"
+    //    },
+      //  {
+//            "type": "collaboration",
+  //          "name": "ePro",
+    //        "description": "<a href=\"https://crayfis.io\">The app that turns your phone into a cosmic ray detector. No joke.</a>",
+      //      "slug": "epro",
+        //    "count": "10",
+          //  "group": "1"
+    //    },
+      //  {
+    //        "type": "collaboration",
+      //      "name": "Enroll",
+        //    "description": "<a href=\"http://diana-hep.org\">Sustainable Software for High Energy Physics</a>",
+      //      "slug": "enroll",
+        //    "count": "10",
+     //       "group": "2"
+   //     },
+     //   {
+//            "type": "collaboration",
+  //          "name": "Sensor Link",
+    //        "description": "<a href=\"https://daspos.crc.nd.edu\">Data And Software Preservation for High Energy Physics</a>",
+//            "slug": "sensor",
+//            "count": "10",
+  //          "group": "2"
+  //      },
         {
             "type": "collaboration",
             "name": "Strategic Monitoring",
