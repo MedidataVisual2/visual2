@@ -8,26 +8,7 @@
             "date": "2012-05-05 23:50:11",
             "slug": "ditem-kyle-cranmer",
             "links": [
-                "Rave/RaveX",
-                "OPAL",
-                "Insights",
-                "Grants Manager",
-                "CTMS",
-                "Payments",
-                "Balance",
-                "Safety Gateway",
-                "Balance RTSM",
-                "Coder",
-                "Medidata Medical Imaging",
-                "Strategic Monitoring",
-                "CSA",
-                "TotalView",
-                "Study Design Optimizer",
-                "ePRO",
-                "SensorLink",
-                "AppConnect",
-                "eConsent"
-                
+                "OPAL"
             ]
         },
         {
@@ -38,11 +19,7 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-lukas-heinrich",
             "links": [
-                "OPAL",
-                "Study Design Optimization",
-                "Grants Manager Planning",
-                "Synthetic Control Arms",
-                "Genomics"
+                "OPAL"
             ]
         },
         {
@@ -53,10 +30,9 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-gilles-louppe",
             "links": [
-                "CTMS",
-                "Grants Manager Contracting",
-                "Regulated Content Management",
-                "Strategic Monitoring"
+                "Coder",
+                "Cloud Admin",
+                "Batch Uploader"
             ]
         },
         {
@@ -67,16 +43,8 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-gilles-louppe",
             "links": [
-                "Balance RTSM",
-                "Coder",
-                "Medidata Medical Imaging",
-                "Payments",
-                "ePRO",
-                "SensorLink",
-                "AppConnect",
-                "eConsent",
-                "Rave/RaveX",
-                "Safety Gateway"
+                "Cloud Admin",
+                "Coder"
             ]
         },
         {
@@ -87,35 +55,33 @@
             "date": "2012-05-09 15:53:27",
             "slug": "ditem-gilles-louppe",
             "links": [
-                "CSA",
-                "Insights",
-                "OPAL",
-                "TotalView"
+                "Cloud Admin",
+                "Coder"
             ]
         },
-      //  {
-        //    "type": "ditem",
-          //  "name": "Platform & Services",
+  //      {
+      //      "type": "ditem",
+        //    "name": "Platform & Services",
           //  "description": "Tilman Plehn is ",
           //  "ditem": 6,
-          //  "date": "2012-05-09 15:53:27",
-          //  "slug": "ditem",
-          //  "links": [
-            //    "OPAL",
-              //  "Cloud Admin",
+           // "date": "2012-05-09 15:53:27",
+         //   "slug": "ditem",
+           // "links": [
+             //   "OPAL",
+               // "Cloud Admin",
               //  "Coder"
-          //  ]
+         //   ]
       //  }
 
-    ],
+   // ],
     "product": [
-      //  {
-       //     "type": "product",
-         //   "name": "Batch Uploader",
-           // "description": "<div style=\"width: 640px; height: 480px; margin: 10px; position: relative;\"><iframe allowfullscreen frameborder=\"0\" style=\"width:640px; height:480px\" src=\"https://www.lucidchart.com/documents/embeddedchart/d954e049-fa07-48b9-843a-113500715b94\" id=\"spROHcOgys9d\"></iframe></div>",
-        //    "group": "11",
-          //  "slug": "batchuploader"
-     //   },
+        {
+            "type": "product",
+            "name": "Batch Uploader",
+            "description": "<div style=\"width: 640px; height: 480px; margin: 10px; position: relative;\"><iframe allowfullscreen frameborder=\"0\" style=\"width:640px; height:480px\" src=\"https://www.lucidchart.com/documents/embeddedchart/d954e049-fa07-48b9-843a-113500715b94\" id=\"spROHcOgys9d\"></iframe></div>",
+            "group": "11",
+            "slug": "batchuploader"
+        },
         {
             "type": "product",
             "name": "Balance RTSM",
@@ -123,13 +89,13 @@
             "group": "11",
             "slug": "balance"
         },
-       // {
-         //   "type": "product",
-           // "name": "Cloud Admin",
-          //  "description": "Cloud Admin is a toolbox for likelihood-free inference - <a href=\"http://diana-hep.org/carl\">documentation</a> | <a href=\"https://github.com/diana-hep/carl\">code</a>",
-         //   "group": "11",
-           // "slug": "cloudadmin"
-      //  },
+        {
+            "type": "product",
+            "name": "Cloud Admin",
+            "description": "Cloud Admin is a toolbox for likelihood-free inference - <a href=\"http://diana-hep.org/carl\">documentation</a> | <a href=\"https://github.com/diana-hep/carl\">code</a>",
+            "group": "11",
+            "slug": "cloudadmin"
+        },
         {
             "type": "product",
             "name": "Coder",
@@ -153,13 +119,13 @@
         },
         {
             "type": "product",
-            "name": "Study Design Optimizer",
+            "name": "Design Optimizer",
             "description": "",
             "slug": "design"
         },
         {
             "type": "product",
-            "name": "Medidata Medical Imaging",
+            "name": "MMI",
             "description": "",
             "slug": "imaging"
         },
@@ -169,12 +135,12 @@
             "description": "",
             "slug": "grantsmanager"
         },
-      //  {
-        //    "type": "product",
-          //  "name": "iMedidata",
-         //   "description": "",
-          //  "slug": "imedidata"
-       // },
+        {
+            "type": "product",
+            "name": "iMedidata",
+            "description": "",
+            "slug": "imedidata"
+        },
         {
             "type": "product",
             "name": "OPAL",
@@ -189,13 +155,13 @@
             "group": "12",
             "slug": "insights"
         },
-      //  {
-        //    "type": "product",
-          //  "name": "MEDS",
-         //   "description": "",
-         //   "group": "11",
-        //    "slug": "meds"
-      //  },
+        {
+            "type": "product",
+            "name": "MEDS",
+            "description": "",
+            "group": "11",
+            "slug": "meds"
+        },
         {
             "type": "product",
             "name": "RCM",
@@ -220,14 +186,14 @@
             "count": "10",
             "group": "1"
         },
-        //{
-          //  "type": "collaboration",
-          //  "name": "TSDV",
-          //  "description": "<a href=\"http://lhcb-public.web.cern.ch/lhcb-public/\">LHCb is an experiment set up to explore what happened after the Big Bang that allowed matter to survive and build the Universe we inhabit today</a>",
-          //  "slug": "tsdv",
-          //  "count": "10",
-          //  "group": "1"
-      //  },
+        {
+            "type": "collaboration",
+            "name": "TSDV",
+            "description": "<a href=\"http://lhcb-public.web.cern.ch/lhcb-public/\">LHCb is an experiment set up to explore what happened after the Big Bang that allowed matter to survive and build the Universe we inhabit today</a>",
+            "slug": "tsdv",
+            "count": "10",
+            "group": "1"
+        },
         {
             "type": "collaboration",
             "name": "TotalView",
@@ -238,7 +204,7 @@
         },
         {
             "type": "collaboration",
-            "name": "AppConnect",
+            "name": "App Connect",
             "description": "An experiment at Jefferson Lab looking for a fifth force carried by a \"dark photon\".",
             "slug": "app",
             "count": "10",
@@ -254,7 +220,7 @@
         },
         {
             "type": "collaboration",
-            "name": "eConsent",
+            "name": "Enroll",
             "description": "<a href=\"http://diana-hep.org\">Sustainable Software for High Energy Physics</a>",
             "slug": "enroll",
             "count": "10",
@@ -262,7 +228,7 @@
         },
         {
             "type": "collaboration",
-            "name": "SensorLink",
+            "name": "Sensor Link",
             "description": "<a href=\"https://daspos.crc.nd.edu\">Data And Software Preservation for High Energy Physics</a>",
             "slug": "sensor",
             "count": "10",
