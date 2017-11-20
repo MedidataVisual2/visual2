@@ -359,7 +359,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
                 return 15
             }
         }).text(function(Z) {
-            return Z.name
+            //return Z.name
         }).attr("text-anchor", function(Z) {
             if (Z === L.node || Z.isGroup) {
                 return "middle"
