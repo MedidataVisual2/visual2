@@ -540,9 +540,12 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             }
             return null
         });
-        E.selectAll("text.label").attr("fill", function(X) {
-            return (X === L.node || X.isGroup) ? "#000" : l(X, "#000", N, "#000")
-        })
+        // ** Figured out this is what changes the color for the text in circle
+        // Testing to see what happens if this is entirely removed, should remove text!?
+
+        //E.selectAll("text.label").attr("fill", function(X) {
+        //    return (X === L.node || X.isGroup) ? "#000" : l(X, "#000", N, "#000")
+        //})
     }
 
     function p(X) {
