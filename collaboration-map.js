@@ -80,12 +80,16 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
     });
 
     var Z = window.location.hash.substring(1);
+
+    // I believe this is where the subpages are created!?
     if (Z && x[Z]) {
         G(x[Z]);
     } else {
         O();
         M();
     }
+
+
 
     window.onhashchange = function() {
         var aa = window.location.hash.substring(1);
@@ -420,12 +424,12 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
                     var ad = ac.selectAll(".pair").data(A.get(ab.group).filter(function(ae) {
                         return ae !== ab
                     }), u);
-                    ad.enter().append("text").attr("fill", "#FF0000").attr("text-anchor", "middle").attr("y", function(af, ae) {
+                    ad.enter().append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", function(af, ae) {
                         return (o + t) * 2 + (ae * (o + t))
                     }).text(function(ae) {
                         return "(vs. " + ae.name + ")"
                     }).attr("class", "pair").on("click", G);
-                    Y.append("text").attr("fill", "#FF0000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("collaboration");
+                    Y.append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("collaboration");
                     ad.exit().remove()
                 }
             }
@@ -491,7 +495,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             return l(X, "#113054", N, "#113054")
         });
         B.selectAll("path").attr("stroke", function(X) {
-            return l(X, "#aaa", N, "#aaa")
+            return l(X, "#DBED50", N, "#DBED50")
         }).attr("stroke-width", function(X) {
             return l(X, "1.5px", "2.5px", "1px")
         }).attr("opacity", function(X) {
@@ -540,7 +544,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             }
             return null
         });
-        // ** Figured out this is what changes the color for the text in circle
+        // ** Figured out this is not what changes the color for the text in circle
         // Testing to see what happens if this is entirely removed, should remove text!?
 
         //E.selectAll("text.label").attr("fill", function(X) {
