@@ -418,7 +418,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             //})
         } else {
             if (ab && ab.type === "product") {
-                // Y.append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("product")
+                 Y.append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("product")
             } else {
                 if (ab && ab.type === "collaboration") {
                     var ad = ac.selectAll(".pair").data(A.get(ab.group).filter(function(ae) {
@@ -497,7 +497,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             return l(X, "#113054", N, "#113054")
         });
         B.selectAll("path").attr("stroke", function(X) {
-            return l(X, "#C5D500", N, "#C5D500")
+            return l(X, "#000", N, "#000")
         }).attr("stroke-width", function(X) {
             return l(X, "1.5px", "2.5px", "1px")
         }).attr("opacity", function(X) {
