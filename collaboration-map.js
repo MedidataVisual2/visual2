@@ -418,7 +418,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             //})
         } else {
             if (ab && ab.type === "product") {
-                 Y.append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("product")
+                 // Y.append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("product")
             } else {
                 if (ab && ab.type === "collaboration") {
                     var ad = ac.selectAll(".pair").data(A.get(ab.group).filter(function(ae) {
@@ -429,7 +429,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
                     }).text(function(ae) {
                         return "(vs. " + ae.name + ")"
                     }).attr("class", "pair").on("click", G);
-                    Y.append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("collaboration");
+                    // Y.append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("collaboration");
                     ad.exit().remove()
                 }
             }
