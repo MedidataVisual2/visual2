@@ -541,7 +541,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             return null
         });
         E.selectAll("text.label").attr("fill", function(X) {
-            return (X === L.node || X.isGroup) ? "#fff" : l(X, "#000", N, "#999")
+            return (X === L.node || X.isGroup) ? "#000" : l(X, "#000", N, "#000")
         })
     }
 
