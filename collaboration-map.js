@@ -333,7 +333,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         }).attr("class", "node").on("mouseover", g).on("mouseout", n).on("click", G);
         Y.append("circle").attr("r", 0);
         Y.append("text").attr("stroke", "#fff").attr("stroke-width", 4).attr("class", "label-stroke");
-        Y.append("text").attr("font-size", 0).attr("class", "label");
+        //Y.append("text").attr("font-size", 0).attr("class", "label");
         X.transition().duration(w).ease(F).attr("transform", function(Z) {
             if (Z === L.node) {
                 return null
