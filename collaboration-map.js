@@ -285,6 +285,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         b(d3.merge([T.get("product"), T.get("collaborations")]));
         C([]);
         m(P);
+        Q.html('<!--<a href="/2016/12/collaboration-map">What\'s this?</a>-->');
         n();
         z()
     }
