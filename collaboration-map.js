@@ -470,7 +470,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
                 [Z.x1, Z.y1],
                 [Z.x1, Z.y1]
             ])
-        }).attr("stroke", "#000").attr("stroke-width", 1.5).transition().duration(w).ease(F).attr("d", function(Z) {
+        }).attr("stroke", "#fff").attr("stroke-width", 1.5).transition().duration(w).ease(F).attr("d", function(Z) {
             return v([
                 [Z.x1, Z.y1],
                 [Z.xx, Z.yy],
