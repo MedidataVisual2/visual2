@@ -327,9 +327,9 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             };
             return "translate(" + Z.xOffset + ",0)rotate(" + (Z.x - 90) + ")translate(" + Z.y + ")"
         }).attr("class", "node").on("mouseover", g).on("mouseout", n).on("click", G);
-        //Y.append("circle").attr("r", 0);
-        //Y.append("text").attr("stroke", "#fff").attr("stroke-width", 4).attr("class", "label-stroke");
-        //Y.append("text").attr("font-size", 0).attr("class", "label");
+        Y.append("circle").attr("r", 0);
+        Y.append("text").attr("stroke", "#fff").attr("stroke-width", 4).attr("class", "label-stroke");
+        Y.append("text").attr("font-size", 0).attr("class", "label");
         X.transition().duration(w).ease(F).attr("transform", function(Z) {
             if (Z === L.node) {
                 return null
@@ -377,23 +377,23 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         X.exit().remove()
     }
 
-    // function V() {
-    //     var X = B.selectAll("path").data(H, u);
-    //     X.enter().append("path").attr("d", function(Z) {
-    //         var Y = Z.source ? {
-    //             x: Z.source.x,
-    //             y: Z.source.y
-    //         } : {
-    //             x: 0,
-    //             y: 0
-    //         };
-    //         return W({
-    //             source: Y,
-    //             target: Y
-    //         })
-    //     }).attr("class", "link");
-    //     X.exit().remove()
-    // }
+    function V() {
+        var X = B.selectAll("path").data(H, u);
+        X.enter().append("path").attr("d", function(Z) {
+            var Y = Z.source ? {
+                x: Z.source.x,
+                y: Z.source.y
+            } : {
+                x: 0,
+                y: 0
+            };
+            return W({
+                source: Y,
+                target: Y
+            })
+        }).attr("class", "link");
+        X.exit().remove()
+    }
 
     function C(Z) {
         var ac = d.selectAll(".detail").data(Z, u);
@@ -473,7 +473,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         });
         E.selectAll("circle").attr("fill", function(X) {
             if (X === L.node) {
-                return "#000"
+                return "#ffffff"
             } else {
                 if (X.type === "product") {
                     return l(X, "#000", N, "#000")
