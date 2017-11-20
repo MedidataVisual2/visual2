@@ -359,7 +359,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
                 return 15
             }
         }).text(function(Z) {
-            //return Z.name
+            return Z.name
         }).attr("text-anchor", function(Z) {
             if (Z === L.node || Z.isGroup) {
                 return "middle"
@@ -436,7 +436,9 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         }
         ac.exit().remove();
         var X = d.selectAll(".all-ditems").data(Z);
-        X.enter().append("text").attr("text-anchor", "middle").attr("x", a / -2 + t).attr("y", c / 2 - t).text("Click Here To Return").attr("class", "all-ditems").on("click", O);
+        X.enter().append("text").attr("text-anchor", "middle").attr("x", a / -3 + t).attr("y", c / 3 - t).text("Click Here To Return").attr("class", "all-ditems").on("click", O);
+        X.enter().append("text").attr("text-anchor", "middle").attr("x", a / -3 + t).attr("y", c / 3 - t).text("Click Here To Return").attr("class", "all-ditems").on("click", O);
+
         X.exit().remove()
     }
 
