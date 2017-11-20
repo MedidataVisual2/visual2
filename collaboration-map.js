@@ -400,8 +400,8 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         var Y = ac.enter().append("g").attr("class", "detail");
         var ab = Z[0];
         if (ab && ab.type === "ditem") {
-            var aa = Y.append("a").attr("xlink:href", function(ae) {
-                return "/" + ae.slug
+            //var aa = Y.append("a").attr("xlink:href", function(ae) {
+            //    return "/" + ae.slug
             });
 
         // **Removing this bit above makes the visual crash, ! **
