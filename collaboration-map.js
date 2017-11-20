@@ -168,7 +168,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
     function G(Y, X) {
         if (L.node === Y && X !== true) {
             if (Y.type === "ditem") {
-                window.location.href = "/" + Y.slug;
+                //window.location.href = "/" + Y.slug;
                 return
             }
             L.node.children.forEach(function(aa) {
@@ -401,7 +401,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         var ab = Z[0];
         if (ab && ab.type === "ditem") {
             var aa = Y.append("a").attr("xlink:href", function(ae) {
-                return "/" + ae.slug
+              //  return "/" + ae.slug
             });
             aa.append("text").attr("fill", N).attr("text-anchor", "middle").attr("y", (o + t) * -1).text(function(ae) {
                 // **Should remove the ITEM text in the circle in product page** return "ITEM " + ae.ditem
