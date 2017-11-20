@@ -477,7 +477,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
                 [Z.x2, Z.y2]
             ])
         });
-        X.exit().remove()
+        //X.exit().remove()
     }
 
     function z() {
