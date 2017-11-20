@@ -420,12 +420,12 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
                     var ad = ac.selectAll(".pair").data(A.get(ab.group).filter(function(ae) {
                         return ae !== ab
                     }), u);
-                    ad.enter().append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", function(af, ae) {
-                        return (o + t) * 2 + (ae * (o + t))
-                    }).text(function(ae) {
-                        return "(vs. " + ae.name + ")"
-                    }).attr("class", "pair").on("click", G);
-                    Y.append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("collaboration");
+                    // ad.enter().append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", function(af, ae) {
+                    //     return (o + t) * 2 + (ae * (o + t))
+                    // }).text(function(ae) {
+                    //     return "(vs. " + ae.name + ")"
+                    // }).attr("class", "pair").on("click", G);
+                    // Y.append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("collaboration");
                     ad.exit().remove()
                 }
             }
