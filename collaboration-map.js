@@ -99,74 +99,74 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
     };
 
     function O() {
-        // if (L.node === null) {
-        //     return
-        // }
-        // L = {
-        //     node: null,
-        //     map: {}
-        // };
-        // i = Math.floor(c / T.get("ditems").length);
-        // y = Math.floor(T.get("ditems").length * i / 2);
-        // T.get("ditems").forEach(function(af, ae) {
-        //     af.x = U / -2;
-        //     af.y = ae * i - y
-        // });
-        // var ad = 180 + J,
-        //     Z = 360 - J,
-        //     ac = (Z - ad) / (T.get("product").length - 1);
-        // T.get("product").forEach(function(af, ae) {
-        //     af.x = Z - ae * ac;
-        //     af.y = h / 2 - R;
-        //     af.xOffset = -S;
-        //     af.depth = 1
-        // });
-        // ad = J;
-        // Z = 180 - J;
-        // ac = (Z - ad) / (T.get("collaborations").length - 1);
-        // T.get("collaborations").forEach(function(af, ae) {
-        //     af.x = ae * ac + ad;
-        //     af.y = h / 2 - R;
-        //     af.xOffset = S;
-        //     af.depth = 1
-        // });
-        // H = [];
-        // var ab, Y, aa, X = h / 2 - R;
-        // T.get("ditems").forEach(function(ae) {
-        //     ae.links.forEach(function(af) {
-        //         ab = x[p(af)];
-        //         if (!ab || ab.type === "reference") {
-        //             return
-        //         }
-        //         Y = (ab.x - 90) * Math.PI / 180;
-        //         aa = ae.key + "-to-" + ab.key;
-        //         H.push({
-        //             source: ae,
-        //             target: ab,
-        //             key: aa,
-        //             canonicalKey: aa,
-        //             x1: ae.x + (ab.type === "product" ? 0 : U),
-        //             y1: ae.y + K / 2,
-        //             x2: Math.cos(Y) * X + ab.xOffset,
-        //             y2: Math.sin(Y) * X
-        //         })
-        //     })
-        // });
-        // P = [];
-        // A.forEach(function(af, ag) {
-        //     var ae = (ag[0].x - 90) * Math.PI / 180;
-        //     a2 = (ag[1].x - 90) * Math.PI / 180, bulge = 20;
-        //     P.push({
-        //         x1: Math.cos(ae) * X + ag[0].xOffset,
-        //         y1: Math.sin(ae) * X,
-        //         xx: Math.cos((ae + a2) / 2) * (X + bulge) + ag[0].xOffset,
-        //         yy: Math.sin((ae + a2) / 2) * (X + bulge),
-        //         x2: Math.cos(a2) * X + ag[1].xOffset,
-        //         y2: Math.sin(a2) * X
-        //     })
-        // });
-        // window.location.hash = "";
-        // M()
+        if (L.node === null) {
+            return
+        }
+        L = {
+            node: null,
+            map: {}
+        };
+        i = Math.floor(c / T.get("ditems").length);
+        y = Math.floor(T.get("ditems").length * i / 2);
+        T.get("ditems").forEach(function(af, ae) {
+            af.x = U / -2;
+            af.y = ae * i - y
+        });
+        var ad = 180 + J,
+            Z = 360 - J,
+            ac = (Z - ad) / (T.get("product").length - 1);
+        T.get("product").forEach(function(af, ae) {
+            af.x = Z - ae * ac;
+            af.y = h / 2 - R;
+            af.xOffset = -S;
+            af.depth = 1
+        });
+        ad = J;
+        Z = 180 - J;
+        ac = (Z - ad) / (T.get("collaborations").length - 1);
+        T.get("collaborations").forEach(function(af, ae) {
+            af.x = ae * ac + ad;
+            af.y = h / 2 - R;
+            af.xOffset = S;
+            af.depth = 1
+        });
+        H = [];
+        var ab, Y, aa, X = h / 2 - R;
+        T.get("ditems").forEach(function(ae) {
+            ae.links.forEach(function(af) {
+                ab = x[p(af)];
+                if (!ab || ab.type === "reference") {
+                    return
+                }
+                Y = (ab.x - 90) * Math.PI / 180;
+                aa = ae.key + "-to-" + ab.key;
+                H.push({
+                    source: ae,
+                    target: ab,
+                    key: aa,
+                    canonicalKey: aa,
+                    x1: ae.x + (ab.type === "product" ? 0 : U),
+                    y1: ae.y + K / 2,
+                    x2: Math.cos(Y) * X + ab.xOffset,
+                    y2: Math.sin(Y) * X
+                })
+            })
+        });
+        P = [];
+        A.forEach(function(af, ag) {
+            var ae = (ag[0].x - 90) * Math.PI / 180;
+            a2 = (ag[1].x - 90) * Math.PI / 180, bulge = 20;
+            P.push({
+                x1: Math.cos(ae) * X + ag[0].xOffset,
+                y1: Math.sin(ae) * X,
+                xx: Math.cos((ae + a2) / 2) * (X + bulge) + ag[0].xOffset,
+                yy: Math.sin((ae + a2) / 2) * (X + bulge),
+                x2: Math.cos(a2) * X + ag[1].xOffset,
+                y2: Math.sin(a2) * X
+            })
+        });
+        window.location.hash = "";
+        M()
     }
 
     function G(Y, X) {
@@ -285,7 +285,6 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         b(d3.merge([T.get("product"), T.get("collaborations")]));
         C([]);
         m(P);
-        Q.html('<!--<a href="/2016/12/collaboration-map">What\'s this?</a>-->');
         n();
         z()
     }
