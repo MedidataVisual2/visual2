@@ -491,11 +491,13 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
     }
 
     function z() {
+
+      // Below is what affects the colors for rectangles and path (in both main page and product?)
         f.selectAll("rect").attr("fill", function(X) {
             return l(X, "#113054", N, "#113054")
         });
         B.selectAll("path").attr("stroke", function(X) {
-            return l(X, "#DBED50", N, "#DBED50")
+            return l(X, "#C5D500", N, "#C5D500")
         }).attr("stroke-width", function(X) {
             return l(X, "1.5px", "2.5px", "1px")
         }).attr("opacity", function(X) {
@@ -544,7 +546,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             }
             return null
         });
-        // ** Figured out this is not what changes the color for the text in circle
+        // ** Figured out this is not what changes the color for the text in circle in the product page
         // Testing to see what happens if this is entirely removed, should remove text!?
 
         //E.selectAll("text.label").attr("fill", function(X) {
