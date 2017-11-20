@@ -398,6 +398,33 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
     function C(Z) {
         var ac = d.selectAll(".detail").data(Z, u);
         var Y = ac.enter().append("g").attr("class", "detail");
+        var ab = Z[0];
+        if (ab && ab.type === "ditem") {
+            var aa = Y.append("a").attr("xlink:href", function(ae) {
+                return "/" + ae.slug
+            });
+            aa.append("text").attr("fill", N).attr("text-anchor", "middle").attr("y", (o + t) * -1).text(function(ae) {
+                return "ITEM " + ae.ditem
+            })
+        } else {
+            if (ab && ab.type === "product") {
+                Y.append("text").attr("fill", "#000").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("product")
+            } else {
+                if (ab && ab.type === "collaboration") {
+                    var ad = ac.selectAll(".pair").data(A.get(ab.group).filter(function(ae) {
+                        return ae !== ab
+                    }), u);
+                    ad.enter().append("text").attr("fill", "#aaa").attr("text-anchor", "middle").attr("y", function(af, ae) {
+                        return (o + t) * 2 + (ae * (o + t))
+                    }).text(function(ae) {
+                        return "(vs. " + ae.name + ")"
+                    }).attr("class", "pair").on("click", G);
+                    Y.append("text").attr("fill", "#aaa").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("collaboration");
+                    ad.exit().remove()
+                }
+            }
+        }
+        ac.exit().remove();
         var X = d.selectAll(".all-ditems").data(Z);
         X.enter().append("text").attr("text-anchor", "middle").attr("x", a / -2 + t).attr("y", c / 2 - t).text("Click Here To Return").attr("class", "all-ditems").on("click", O);
         X.exit().remove()
@@ -476,14 +503,14 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
                 return "#ffffff"
             } else {
                 if (X.type === "product") {
-                    return l(X, "#000", N, "#000")
+                    return l(X, "#ffffff", N, "#ffffff")
                 } else {
                     if (X.type === "collaboration") {
-                        return "#000"
+                        return "#ffffff"
                     }
                 }
             }
-            return l(X, "#000", N, "#000")
+            return l(X, "#ffffff", N, "#ffffff")
         }).attr("stroke", function(X) {
             if (X === L.node) {
                 return l(X, null, N, null)
