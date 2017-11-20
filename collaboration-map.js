@@ -399,12 +399,12 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         var ac = d.selectAll(".detail").data(Z, u);
         var Y = ac.enter().append("g").attr("class", "detail");
         var ab = Z[0];
-        //if (ab && ab.type === "ditem") {
-        //    var aa = Y.append("a").attr("xlink:href", function(ae) {
-        //        return "/" + ae.slug
-        //    });
+        if (ab && ab.type === "ditem") {
+            var aa = Y.append("a").attr("xlink:href", function(ae) {
+                return "/" + ae.slug
+            });
 
-        // **Should remove the link possibly from the circle! Testing! **
+        // **Removing this bit above makes the visual crash, ! **
 
 
             aa.append("text").attr("fill", N).attr("text-anchor", "middle").attr("y", (o + t) * -1).text(function(ae) {
