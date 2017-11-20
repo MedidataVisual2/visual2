@@ -404,7 +404,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
                 return "/" + ae.slug
             });
             aa.append("text").attr("fill", N).attr("text-anchor", "middle").attr("y", (o + t) * -1).text(function(ae) {
-                return "ITEM " + ae.ditem
+                // **Should remove the ITEM text in the circle in product page** return "ITEM " + ae.ditem
             })
         } else {
             if (ab && ab.type === "product") {
