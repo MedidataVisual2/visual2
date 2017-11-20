@@ -371,10 +371,10 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             }
             return Z.x < 180 ? "translate(" + t + ")" : "rotate(180)translate(-" + t + ")"
         });
-        X.selectAll("text.label-stroke").attr("display", function(Z) {
-            return Z.depth === 1 ? "block" : "none"
-        });
-        X.exit().remove()
+        //X.selectAll("text.label-stroke").attr("display", function(Z) {
+        //    return Z.depth === 1 ? "block" : "none"
+        //});
+        //X.exit().remove()
     }
 
     function V() {
