@@ -245,39 +245,39 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         n();
         z() }
 
-    // function b(X) { var X = E.selectAll(".node")
-    //         .data(X, u); var Y = X.enter()
-    //         .append("g")
-    //         .attr("transform", function(aa) { var Z = aa.parent ? aa.parent : { xOffset: 0, x: 0, y: 0 }; return "translate(" + Z.xOffset + ",0)rotate(" + (Z.x - 90) + ")translate(" + Z.y + ")" })
-    //         .attr("class", "node")
-    //         .on("mouseover", g)
-    //         .on("mouseout", n)
-    //         .on("click", G);
-    //     Y.append("text")
-    //         .attr("font-size", 0)
-    //         .attr("class", "label");
-    //     X.transition()
-    //         .duration(w)
-    //         .ease(F)
-    //         .attr("transform", function(Z) { if (Z === L.node) { return null } var aa = Z.isGroup ? Z.y + (7 + Z.count) : Z.y; return "translate(" + Z.xOffset + ",0)rotate(" + (Z.x - 90) + ")translate(" + aa + ")" });
-    //     X.selectAll("circle")
-    //         .transition()
-    //         .duration(w)
-    //         .ease(F)
-    //         .attr("r", function(Z) { if (Z == L.node) { return 100 } else { if (Z.isGroup) { return 7 + Z.count } else { return 4.5 } } });
-    //     X.selectAll("text")
-    //         .transition()
-    //         .duration(w)
-    //         .ease(F)
-    //         .attr("dy", ".3em")
-    //         .attr("font-size", function(Z) { if (Z.depth === 0) { return 20 } else { return 15 } })
-    //         .text(function(Z) { return Z.name })
-    //         .attr("text-anchor", function(Z) { if (Z === L.node || Z.isGroup) { return "middle" } return Z.x < 180 ? "start" : "end" })
-    //         .attr("transform", function(Z) { if (Z === L.node) { return null } else { if (Z.isGroup) { return Z.x > 180 ? "rotate(180)" : null } } return Z.x < 180 ? "translate(" + t + ")" : "rotate(180)translate(-" + t + ")" });
-    //     X.selectAll("text.label-stroke")
-    //         .attr("display", function(Z) { return Z.depth === 1 ? "block" : "none" });
-    //     X.exit()
-    //         .remove() }
+    function b(X) { var X = E.selectAll(".node")
+            .data(X, u); var Y = X.enter()
+            .append("g")
+            .attr("transform", function(aa) { var Z = aa.parent ? aa.parent : { xOffset: 0, x: 0, y: 0 }; return "translate(" + Z.xOffset + ",0)rotate(" + (Z.x - 90) + ")translate(" + Z.y + ")" })
+            .attr("class", "node")
+            .on("mouseover", g)
+            .on("mouseout", n)
+            .on("click", G);
+        Y.append("text")
+            .attr("font-size", 0)
+            .attr("class", "label");
+        X.transition()
+            .duration(w)
+            .ease(F)
+            .attr("transform", function(Z) { if (Z === L.node) { return null } var aa = Z.isGroup ? Z.y + (7 + Z.count) : Z.y; return "translate(" + Z.xOffset + ",0)rotate(" + (Z.x - 90) + ")translate(" + aa + ")" });
+        X.selectAll("circle")
+            .transition()
+            .duration(w)
+            .ease(F)
+            .attr("r", function(Z) { if (Z == L.node) { return 100 } else { if (Z.isGroup) { return 7 + Z.count } else { return 4.5 } } });
+        X.selectAll("text")
+            .transition()
+            .duration(w)
+            .ease(F)
+            .attr("dy", ".3em")
+            .attr("font-size", function(Z) { if (Z.depth === 0) { return 20 } else { return 15 } })
+            .text(function(Z) { return Z.name })
+            .attr("text-anchor", function(Z) { if (Z === L.node || Z.isGroup) { return "middle" } return Z.x < 180 ? "start" : "end" })
+            .attr("transform", function(Z) { if (Z === L.node) { return null } else { if (Z.isGroup) { return Z.x > 180 ? "rotate(180)" : null } } return Z.x < 180 ? "translate(" + t + ")" : "rotate(180)translate(-" + t + ")" });
+        X.selectAll("text.label-stroke")
+            .attr("display", function(Z) { return Z.depth === 1 ? "block" : "none" });
+        X.exit()
+            .remove() }
 
     function V() { var X = B.selectAll("path")
             .data(H, u);
@@ -288,21 +288,21 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         X.exit()
             .remove() }
 
-    function C(Z) { var ac = d.selectAll(".detail")
-            .data(Z, u); var Y = ac.enter()
-            .append("g")
-            .attr("class", "detail"); var X = d.selectAll(".all-ditems")
-            .data(Z);
-        X.enter()
-            .append("text")
-            .attr("text-anchor", "middle")
-            .attr("x", a / -2 + t)
-            .attr("y", c / 2 - t)
-            .text("Click Here To Return")
-            .attr("class", "all-ditems")
-            .on("click", O);
-        X.exit()
-            .remove() }
+    // function C(Z) { var ac = d.selectAll(".detail")
+    //         .data(Z, u); var Y = ac.enter()
+    //         .append("g")
+    //         .attr("class", "detail"); var X = d.selectAll(".all-ditems")
+    //         .data(Z);
+    //     X.enter()
+    //         .append("text")
+    //         .attr("text-anchor", "middle")
+    //         .attr("x", a / -2 + t)
+    //         .attr("y", c / 2 - t)
+    //         .text("Click Here To Return")
+    //         .attr("class", "all-ditems")
+    //         .on("click", O);
+    //     X.exit()
+    //         .remove() }
 
     function D(Y) { var Y = f.selectAll(".ditem")
             .data(Y, u); var X = Y.enter()
