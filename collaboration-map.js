@@ -168,7 +168,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
     function G(Y, X) {
         if (L.node === Y && X !== true) {
             if (Y.type === "ditem") {
-                window.location.href = "/" + Y.slug;
+                //window.location.href = "/" + Y.slug;
                 return
             }
             L.node.children.forEach(function(aa) {
