@@ -333,7 +333,7 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
         }).attr("class", "node").on("mouseover", g).on("mouseout", n).on("click", G);
         Y.append("circle").attr("r", 0);
         Y.append("text").attr("stroke", "#fff").attr("stroke-width", 4).attr("class", "label-stroke");
-        //Y.append("text").attr("font-size", 0).attr("class", "label");
+        Y.append("text").attr("font-size", 0).attr("class", "label");
         X.transition().duration(w).ease(F).attr("transform", function(Z) {
             if (Z === L.node) {
                 return null
@@ -400,6 +400,11 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
     }
 
     function C(Z) {
+
+        var X = d.selectAll(".all-ditems").data(Z);
+        X.enter().append("text").attr("text-anchor", "middle").attr("x", a / -2 + t).attr("y", c / 2 - t).text("Click Here To Return").attr("class", "all-ditems").on("click", O);
+        // Seeing if this changes the position for anything!
+        
         var ac = d.selectAll(".detail").data(Z, u);
         var Y = ac.enter().append("g").attr("class", "detail");
         var ab = Z[0];
@@ -435,9 +440,6 @@ var CollaborationMap = function(chartElementId, infoElementId, dataJson) {
             }
         }
         ac.exit().remove();
-        var X = d.selectAll(".all-ditems").data(Z);
-        X.enter().append("text").attr("text-anchor", "middle").attr("x", a / -2 + t).attr("y", c / 2 - t).text("Click Here To Return").attr("class", "all-ditems").on("click", O);
-
         X.exit().remove()
     }
 
